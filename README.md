@@ -11,6 +11,6 @@ NB: We have taken the price of laptops having intel cores only!
 
 Thanks to <https://www.amazon.in/> for pricing data.
 
-Instagram: <https://www.instagram.com/_andrewgeeks/>
+Instagram: <https://www.instagram.com/shuv_insta/>
 
-Twitter: <https://twitter.com/andrewissac20>
+Kaggle: <https://www.kaggle.com/shuvamthakur>
