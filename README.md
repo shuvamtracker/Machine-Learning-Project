@@ -59,12 +59,10 @@ There are a few columns which are categorical here but they actually contain num
 
 # Model Building
 <li>Traditional Method</li>
-Used scikit-learn library for the Machine Learning tasks. Applied label encoding and converted the categorical variables into numerical ones.Then I splited the data into training and test sets with a test size of 20%. I tried three different models ( Linear Regression, Random Forest Regression, XGBoost) and evaluated them using Mean Absolute Error. 
+Used scikit-learn library for the Machine Learning tasks. Applied label encoding and converted the categorical variables into numerical ones.Then We splited the data into training and test sets with a test size of 20%. We tried two different models ( Linear Regression, Descision Tree) and evaluated them using Mean Absolute Error and R Square. 
 
 <li>Automated Method</li>
-Used the auto ML library in python called PyCaret. Compared all the regression models and selected the best model for applied hyperparameter tuning and plotted the various curves.
-
-Link to my article: <a href="https://towardsdatascience.com/leverage-the-power-of-pycaret-d5c3da3adb9b">https://towardsdatascience.com/leverage-the-power-of-pycaret-d5c3da3adb9b</a>
+Used the auto ML library in python called Pickl. Compared all the regression models and selected the best model for applied hyperparameter tuning and plotted the various curves.
 
 # Creation Web Application for Deployment of Laptop Price Prediction Model
 We will use streamlit to create a web app to predict laptop prices. In a web application, we need to implement a form that takes all the inputs from users that we have used in a dataset, and by using the dumped model we predict the output and display it to a user.
@@ -80,11 +78,11 @@ Create a file name setup.sh which contains how to create the directory structure
 
 ## Upload Code to Github
 Log in to your GitHub account and create a new repository of the project name of your choice. Now you can either use the upload button to upload all files by selecting from a local file manager. And you can also use the GIT bash command as stated below to upload your code.
-git init #initialize empty repository </br>
-git remote add origin   #connect to repository</br>
-git pull origin master   #pull initial chnges</br>
-gid add -A #to add files in staging area</br>
-git commit -m initial commit</br>
+git init #initialize empty repository
+git remote add origin   #connect to repository
+git pull origin master   #pull initial chnges
+gid add -A #to add files in staging area
+git commit -m initial commit
 git push origin master  #push all files to github
 
 Deploy to Heroku
