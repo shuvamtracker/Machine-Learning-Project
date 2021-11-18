@@ -13,14 +13,17 @@
 
 # Web Scraping
 
-This is the Flipkart website comprising of different laptops. This page contains the specifications of 24 laptops. So now looking at this, we try to extract the different features of the laptops such as:
+Dataset contains the specifications of 1304 laptops. So now looking at this, we try to extract the different features of the laptops such as:
 <ul>
-  <li> Description</li>
-  <li>Processor</li>
-  <li>RAM</li>
-  <li>Storage</li>
-  <li>Display</li>
-  <li>Warranty</li>
+  <li> Company</li>
+  <li>TypeName</li>
+  <li>Inches</li>
+  <li>Screen Resolution</li>
+  <li>Ram</li>
+  <li>Memory</li>
+  <li>Gpu</li>
+  <li>Operating System</li>
+  <li>Weight</li>
   <li>Price</li>
 </ul>
 So we extract the data from 7 pages so our dataset now consists of the information the 168 different laptops. <br>
