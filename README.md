@@ -80,11 +80,11 @@ Create a file name setup.sh which contains how to create the directory structure
 
 ## Upload Code to Github
 Log in to your GitHub account and create a new repository of the project name of your choice. Now you can either use the upload button to upload all files by selecting from a local file manager. And you can also use the GIT bash command as stated below to upload your code.
-git init #initialize empty repository
-git remote add origin   #connect to repository
-git pull origin master   #pull initial chnges
-gid add -A #to add files in staging area
-git commit -m initial commit
+git init #initialize empty repository </br>
+git remote add origin   #connect to repository</br>
+git pull origin master   #pull initial chnges</br>
+gid add -A #to add files in staging area</br>
+git commit -m initial commit</br>
 git push origin master  #push all files to github
 
 Deploy to Heroku
