@@ -41,10 +41,20 @@ Description - Made new columns for the company and graphic card <br>
 There are a few columns which are categorical here but they actually contain numerical values.So we need to convert few categorical columns to numerical columns. These are DDR_Version,Generation,Storage_GB,Price.
 
 # Exploratory Data Analysis
-![processor_type](https://user-images.githubusercontent.com/88879492/142352237-5864e7bd-55fa-44e3-a51c-6684232b2f72.png)
-![diskdrive](https://user-images.githubusercontent.com/88879492/142352362-24b219b7-5f64-4f66-bcab-62776065e142.png)
- <br/>
-![RAM_GB](https://user-images.githubusercontent.com/88879492/142352434-f7775255-2ff0-4453-836d-f23d6da85048.png)
+
+![image](https://user-images.githubusercontent.com/88879492/142353425-3d656756-78b3-4f57-87aa-0e90ccbc5c8f.png)
+![image](https://user-images.githubusercontent.com/88879492/142353566-fa435aa8-1040-4eff-8bf4-b8581c920c17.png)
+![image](https://user-images.githubusercontent.com/88879492/142353633-b2daa11f-6a44-42fa-aca0-4c85aa39623c.png)
+![image](https://user-images.githubusercontent.com/88879492/142353700-ea5aacd4-92fc-48b9-9f0f-cfd64ef72eae.png)
+![image](https://user-images.githubusercontent.com/88879492/142353769-d05d2a7e-4c8d-4fd6-b106-044c4a81bd06.png)
+![image](https://user-images.githubusercontent.com/88879492/142353832-2f501d17-a4b4-4efd-a660-9b6257fc83b7.png)
+![image](https://user-images.githubusercontent.com/88879492/142353873-17065cf4-35d7-4b53-99a4-db6a38f96951.png)
+![image](https://user-images.githubusercontent.com/88879492/142353893-7363458e-0779-479a-8173-1039e15bbd67.png)
+![image](https://user-images.githubusercontent.com/88879492/142354316-ed2f2305-5046-4030-a694-aaef1da54ecf.png)
+![image](https://user-images.githubusercontent.com/88879492/142354346-30b12478-39bb-4f16-8a03-955d5c3d1dcb.png)
+
+
+
 
 # Model Building
 <li>Traditional Method</li>
