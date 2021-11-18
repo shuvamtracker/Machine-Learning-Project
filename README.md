@@ -8,22 +8,20 @@
 
 # Links and Resources Used
 <li>Streamlit Library: <a href="https://www.streamlit.io/">https://www.streamlit.io/</a>
-<li>Model Deployment Github: <a href="https://github.com/shuvamtracker/Machine-Learning-Project">https://github.com/shuvamtracker/Machine-Learning-Project</a></li>
-<li>Packages: pandas, numpy, sklearn, streamlit,</li>
+<li>Model Deployment Video: <a href="https://www.youtube.com/watch?v=IWWu9M-aisA">https://www.youtube.com/watch?v=IWWu9M-aisA</a></li>
+<li>Model Deployment Github: <a href="https://github.com/krishnaik06/Dockers">https://github.com/krishnaik06/Dockers</a></li>
+<li>Packages: pandas, numpy, sklearn, flask, streamlit, joblib</li>
 
 # Web Scraping
 
-Dataset contains the specifications of 1304 laptops. So now looking at this, we try to extract the different features of the laptops such as:
+This is the Flipkart website comprising of different laptops. This page contains the specifications of 24 laptops. So now looking at this, we try to extract the different features of the laptops such as:
 <ul>
-  <li> Company</li>
-  <li>TypeName</li>
-  <li>Inches</li>
-  <li>Screen Resolution</li>
-  <li>Ram</li>
-  <li>Memory</li>
-  <li>Gpu</li>
-  <li>Operating System</li>
-  <li>Weight</li>
+  <li> Description</li>
+  <li>Processor</li>
+  <li>RAM</li>
+  <li>Storage</li>
+  <li>Display</li>
+  <li>Warranty</li>
   <li>Price</li>
 </ul>
 So we extract the data from 7 pages so our dataset now consists of the information the 168 different laptops. <br>
@@ -71,10 +69,14 @@ We will use streamlit to create a web app to predict laptop prices. In a web app
 
 # Deploy Application to Heroku
 Prepare cloud files for deployment
-1) Procfile:Create a file name Procfile which is an initiator file for Heroku. It only contains one line of code that says which file to run or it simply runs your python file.
-2) requirements:Create a file named requirements.txt. It is a text file that contains the name and version of a library that you have used to create your project. we need to define the libraries used to cloud so that when we deploy it creates a complete setup by installing required files. If you do not specify the version then it will install the current updated version of the library. we have used only four libraries for creating streamlit apps.
-3) setup file:Create a file name setup.sh which contains how to create the directory structure in the cloud.
-Upload Code to Github
+## 1) Procfile :
+Create a file name Procfile which is an initiator file for Heroku.
+## 2) requirements:
+Create a file named requirements.txt. It is a text file that contains the name and version of a library that you have used to create your project.
+## 3) setup file:
+Create a file name setup.sh which contains how to create the directory structure in the cloud.
+
+## Upload Code to Github
 Log in to your GitHub account and create a new repository of the project name of your choice. Now you can either use the upload button to upload all files by selecting from a local file manager. And you can also use the GIT bash command as stated below to upload your code.
 git init #initialize empty repository
 git remote add origin   #connect to repository
@@ -87,6 +89,9 @@ Deploy to Heroku
 Log in or register to Heroku if you do not have an account. After you log in in the top-right corner you will have the option of new. create a new app. Give a unique name to your code and this name will be your website URL followed by the Heroku domain and let the region be united states only.
 
 ![image](https://user-images.githubusercontent.com/88879492/142361911-ae682422-b9f1-4280-8e29-18d4144a3f58.png)
+
+![image](https://user-images.githubusercontent.com/88879492/142364685-a3bcf5dd-4158-4842-a3b1-ab400e815fc3.png)
+
 
 # Deploy the code
 
