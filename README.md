@@ -59,12 +59,10 @@ There are a few columns which are categorical here but they actually contain num
 
 # Model Building
 <li>Traditional Method</li>
-Used scikit-learn library for the Machine Learning tasks. Applied label encoding and converted the categorical variables into numerical ones.Then I splited the data into training and test sets with a test size of 20%. I tried three different models ( Linear Regression, Random Forest Regression, XGBoost) and evaluated them using Mean Absolute Error. 
+Used scikit-learn library for the Machine Learning tasks. Applied label encoding and converted the categorical variables into numerical ones.Then we splited the data into training and test sets with a test size of 20%. We tried two different models ( Linear Regression and Descision Tree) and evaluated them using R square and Mean Absolute Error. 
 
 <li>Automated Method</li>
-Used the auto ML library in python called PyCaret. Compared all the regression models and selected the best model for applied hyperparameter tuning and plotted the various curves.
-
-Link to my article: <a href="https://towardsdatascience.com/leverage-the-power-of-pycaret-d5c3da3adb9b">https://towardsdatascience.com/leverage-the-power-of-pycaret-d5c3da3adb9b</a>
+Used the auto ML library in python called Pickl. Compared all the regression models and selected the best model for applied hyperparameter tuning and plotted the various curves.
 
 # Creation Web Application for Deployment of Laptop Price Prediction Model
 We will use streamlit to create a web app to predict laptop prices. In a web application, we need to implement a form that takes all the inputs from users that we have used in a dataset, and by using the dumped model we predict the output and display it to a user.
