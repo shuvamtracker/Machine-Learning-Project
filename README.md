@@ -7,7 +7,6 @@
 </ul>
 
 # Links and Resources Used
-<li>PyCaret Library: <a href="https://pycaret.org/">https://pycaret.org/</a></li>
 <li>Streamlit Library: <a href="https://www.streamlit.io/">https://www.streamlit.io/</a>
 <li>Model Deployment Video: <a href="https://www.youtube.com/watch?v=IWWu9M-aisA">https://www.youtube.com/watch?v=IWWu9M-aisA</a></li>
 <li>Model Deployment Github: <a href="https://github.com/krishnaik06/Dockers">https://github.com/krishnaik06/Dockers</a></li>
