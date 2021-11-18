@@ -24,8 +24,8 @@ This is the Flipkart website comprising of different laptops. This page contains
   <li>Warranty</li>
   <li>Price</li>
 </ul>
-So we extract the data from 7 pages so our dataset now consists of the information the 168 different laptops. <br>
-Link to my article: https://towardsdatascience.com/learn-web-scraping-in-15-minutes-27e5ebb1c28e
+So we extract the data from our dataset now consists of the information the 1304 different laptops. <br>
+Link to my dataset: https://github.com/shuvamtracker/Machine-Learning-Project/blob/main/Lap_price_predictor/laptop_data.csv 
 
 # Feature Engineering
 We go through all the features one by one and keep adding new features. I have made the following changes and created new variables:
