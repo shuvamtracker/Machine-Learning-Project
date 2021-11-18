@@ -1,15 +1,17 @@
 # Laptop Prices Predictor
 <ul>
   <li>Designed a web app that predicts the price of the laptop given the configurations. </li>
-  <li>Scraped the laptops data from Laptop_Data.csv.</li>
-  <li>Developed Linear regression using R2 metrics to get the best model.</li>
-  <li>Deployed the Machine Learning model using streamlit library in Heroku.</li>
+  <li>Scraped the laptops data from flipkart.com using python and BeautifulSoup package</li>
+  <li>Developed Linear, Lasso, and Random Forest Regressors using GridsearchCV to get the best model.</li>
+  <li>Deployed the Machine Learning model using streamlit library in Heroku using flask</li>
 </ul>
 
 # Links and Resources Used
+<li>PyCaret Library: <a href="https://pycaret.org/">https://pycaret.org/</a></li>
 <li>Streamlit Library: <a href="https://www.streamlit.io/">https://www.streamlit.io/</a>
-<li>Model Deployment Github: <a href="https://github.com/shuvamtracker/Machine-Learning-Project">https://github.com/shuvamtracker/Machine-Learning-Project</a></li>
-<li>Packages: pandas, numpy, sklearn, streamlit.</li>
+<li>Model Deployment Video: <a href="https://www.youtube.com/watch?v=IWWu9M-aisA">https://www.youtube.com/watch?v=IWWu9M-aisA</a></li>
+<li>Model Deployment Github: <a href="https://github.com/krishnaik06/Dockers">https://github.com/krishnaik06/Dockers</a></li>
+<li>Packages: pandas, numpy, sklearn, flask, streamlit, joblib</li>
 
 # Web Scraping
 
@@ -63,9 +65,19 @@ Used the auto ML library in python called PyCaret. Compared all the regression m
 
 Link to my article: <a href="https://towardsdatascience.com/leverage-the-power-of-pycaret-d5c3da3adb9b">https://towardsdatascience.com/leverage-the-power-of-pycaret-d5c3da3adb9b</a>
 
+#Creation Web Application for Deployment of Laptop Price Prediction Model
+We will use streamlit to create a web app to predict laptop prices. In a web application, we need to implement a form that takes all the inputs from users that we have used in a dataset, and by using the dumped model we predict the output and display it to a user.
+
+#Deploy Application to Heroku
+
+
 # Model Deployment
 I have deployed the model using Streamlit library and flask framework on Heroku which is a Platform As A Service(PAAS)
-![](images/heroku_app.png)
-![](images/heroku_app2.png)
+![image](https://user-images.githubusercontent.com/88879492/142360271-9027c097-9c64-4cd2-aa09-6730fb07c9cc.png)
+![image](https://user-images.githubusercontent.com/88879492/142360437-4dcc0025-9e3a-491c-afea-be0e67e9bbcf.png)
+![image](https://user-images.githubusercontent.com/88879492/142360564-4721a96f-3ae0-468d-a9f5-d39574333b45.png)
+
+
+
 
 Web application: <a href="https://laptop-price-prediction-model.herokuapp.com/">https://laptop-price-prediction-model.herokuapp.com/</a>
