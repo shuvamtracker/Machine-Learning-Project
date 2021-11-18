@@ -42,8 +42,9 @@ There are a few columns which are categorical here but they actually contain num
 
 # Exploratory Data Analysis
 ![processor_type](https://user-images.githubusercontent.com/88879492/142352237-5864e7bd-55fa-44e3-a51c-6684232b2f72.png)
-   ![](images/diskdrive.png) <br/>
-![](images/RAM_GB.png)
+![diskdrive](https://user-images.githubusercontent.com/88879492/142352362-24b219b7-5f64-4f66-bcab-62776065e142.png)
+ <br/>
+![RAM_GB](https://user-images.githubusercontent.com/88879492/142352434-f7775255-2ff0-4453-836d-f23d6da85048.png)
 
 # Model Building
 <li>Traditional Method</li>
