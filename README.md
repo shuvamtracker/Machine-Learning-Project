@@ -8,7 +8,7 @@
 
 # Links and Resources Used
 <li>Streamlit Library: <a href="https://www.streamlit.io/">https://www.streamlit.io/</a>
-<li>Model Deployment Github: <a href="https://github.com/shuvamtracker/Machine-Learning-Project">https://github.com/krishnaik06/Dockers</a></li>
+<li>Model Deployment Github: <a href="https://github.com/shuvamtracker/Machine-Learning-Project">https://github.com/shuvamtracker/Machine-Learning-Project</a></li>
 <li>Packages: pandas, numpy, sklearn, streamlit.</li>
 
 # Web Scraping
