@@ -66,10 +66,10 @@ Used the auto ML library in python called PyCaret. Compared all the regression m
 
 Link to my article: <a href="https://towardsdatascience.com/leverage-the-power-of-pycaret-d5c3da3adb9b">https://towardsdatascience.com/leverage-the-power-of-pycaret-d5c3da3adb9b</a>
 
-#Creation Web Application for Deployment of Laptop Price Prediction Model
+# Creation Web Application for Deployment of Laptop Price Prediction Model
 We will use streamlit to create a web app to predict laptop prices. In a web application, we need to implement a form that takes all the inputs from users that we have used in a dataset, and by using the dumped model we predict the output and display it to a user.
 
-# Deploy Application to Heroku
+## Deploy Application to Heroku
 Prepare cloud files for deployment
 ## 1) Procfile :
 Create a file name Procfile which is an initiator file for Heroku.
