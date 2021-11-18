@@ -15,12 +15,15 @@
 
 This is the Flipkart website comprising of different laptops. This page contains the specifications of 24 laptops. So now looking at this, we try to extract the different features of the laptops such as:
 <ul>
-  <li> Description</li>
-  <li>Processor</li>
-  <li>RAM</li>
-  <li>Storage</li>
-  <li>Display</li>
-  <li>Warranty</li>
+  <li> Company</li>
+  <li>TypeName</li>
+  <li>Inches</li>
+  <li>Screen Resolution</li>
+  <li>Ram</li>
+  <li>Memory</li>
+  <li>Gpu</li>
+  <li>Operating System</li>
+  <li>Weight</li>
   <li>Price</li>
 </ul>
 So we extract the data from our dataset now consists of the information the 1304 different laptops. <br>
