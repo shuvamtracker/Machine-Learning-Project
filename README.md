@@ -41,7 +41,8 @@ Description - Made new columns for the company and graphic card <br>
 There are a few columns which are categorical here but they actually contain numerical values.So we need to convert few categorical columns to numerical columns. These are DDR_Version,Generation,Storage_GB,Price.
 
 # Exploratory Data Analysis
-![](images/processor_type.png)   ![](images/diskdrive.png) <br/>
+![processor_type](https://user-images.githubusercontent.com/88879492/142352237-5864e7bd-55fa-44e3-a51c-6684232b2f72.png)
+   ![](images/diskdrive.png) <br/>
 ![](images/RAM_GB.png)
 
 # Model Building
