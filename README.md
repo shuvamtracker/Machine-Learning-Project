@@ -84,13 +84,22 @@ git push origin master  #push all files to github
 
 Deploy to Heroku
 Log in or register to Heroku if you do not have an account. After you log in in the top-right corner you will have the option of new. create a new app. Give a unique name to your code and this name will be your website URL followed by the Heroku domain and let the region be united states only.
+
 ![image](https://user-images.githubusercontent.com/88879492/142361911-ae682422-b9f1-4280-8e29-18d4144a3f58.png)
+
+# Deploy the code
+
+Now scroll down and you have the option to deploy code. we will deploy on the main branch. Click on deploy branch and observe logs. After successfully deployment it will give you the web app URL on the view app option and your application is deployed successfully.
+
+Now you can share the URL with anyone to use your application.
 
 
 
 After creating a new repository copy the ssh link of a repository to connect with a repository. And then line by line follow the below commands. 
 ![image](https://user-images.githubusercontent.com/88879492/142360271-9027c097-9c64-4cd2-aa09-6730fb07c9cc.png)
+
 ![image](https://user-images.githubusercontent.com/88879492/142360437-4dcc0025-9e3a-491c-afea-be0e67e9bbcf.png)
+
 ![image](https://user-images.githubusercontent.com/88879492/142360564-4721a96f-3ae0-468d-a9f5-d39574333b45.png)
 
 
