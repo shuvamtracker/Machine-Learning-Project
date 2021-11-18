@@ -48,9 +48,9 @@ There are a few columns which are categorical here but they actually contain num
 ![image](https://user-images.githubusercontent.com/88879492/142353700-ea5aacd4-92fc-48b9-9f0f-cfd64ef72eae.png)
 ![image](https://user-images.githubusercontent.com/88879492/142353769-d05d2a7e-4c8d-4fd6-b106-044c4a81bd06.png)
 ![image](https://user-images.githubusercontent.com/88879492/142353832-2f501d17-a4b4-4efd-a660-9b6257fc83b7.png)
-![image](https://user-images.githubusercontent.com/88879492/142353873-17065cf4-35d7-4b53-99a4-db6a38f96951.png)
-![image](https://user-images.githubusercontent.com/88879492/142353893-7363458e-0779-479a-8173-1039e15bbd67.png)
-![image](https://user-images.githubusercontent.com/88879492/142354316-ed2f2305-5046-4030-a694-aaef1da54ecf.png)
+![image](https://user-images.githubusercontent.com/88879492/142353873-17065cf4-35d7-4b53-99a4-db6a38f96951.png)</br>
+![image](https://user-images.githubusercontent.com/88879492/142353893-7363458e-0779-479a-8173-1039e15bbd67.png)</br>
+![image](https://user-images.githubusercontent.com/88879492/142354316-ed2f2305-5046-4030-a694-aaef1da54ecf.png)</br>
 ![image](https://user-images.githubusercontent.com/88879492/142354346-30b12478-39bb-4f16-8a03-955d5c3d1dcb.png)
 
 
