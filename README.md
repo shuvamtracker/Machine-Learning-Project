@@ -8,24 +8,26 @@
 
 # Links and Resources Used
 <li>Streamlit Library: <a href="https://www.streamlit.io/">https://www.streamlit.io/</a>
-<li>Model Deployment Video: <a href="https://www.youtube.com/watch?v=IWWu9M-aisA">https://www.youtube.com/watch?v=IWWu9M-aisA</a></li>
-<li>Model Deployment Github: <a href="https://github.com/krishnaik06/Dockers">https://github.com/krishnaik06/Dockers</a></li>
-<li>Packages: pandas, numpy, sklearn, flask, streamlit, joblib</li>
+<li>Model Deployment Github: <a href="https://github.com/shuvamtracker/Machine-Learning-Projects">https://github.com/shuvamtracker/Machine-Learning-Project</a></li>
+<li>Packages: pandas, numpy, sklearn, streamlit, joblib</li>
 
 # Web Scraping
 
-This is the Flipkart website comprising of different laptops. This page contains the specifications of 24 laptops. So now looking at this, we try to extract the different features of the laptops such as:
+Our Dataset contains the specifications of 1304 laptops. So now looking at this, we try to extract the different features of the laptops such as:
 <ul>
-  <li> Description</li>
-  <li>Processor</li>
-  <li>RAM</li>
-  <li>Storage</li>
-  <li>Display</li>
-  <li>Warranty</li>
+  <li> Company</li>
+  <li>TypeName</li>
+  <li>Inches</li>
+  <li>Screen Resolution</li>
+  <li>Ram</li>
+  <li>Memory</li>
+  <li>Gpu</li>
+  <li>Operating System</li>
+  <li>Weight</li>
   <li>Price</li>
 </ul>
-So we extract the data from 7 pages so our dataset now consists of the information the 168 different laptops. <br>
-Link to my article: https://towardsdatascience.com/learn-web-scraping-in-15-minutes-27e5ebb1c28e
+So we extract the data from our dataset now consists of the information the 1304 different laptops. <br>
+Link to my dataset: https://github.com/shuvamtracker/Machine-Learning-Project/blob/main/Lap_price_predictor/laptop_data.csv 
 
 # Feature Engineering
 We go through all the features one by one and keep adding new features. I have made the following changes and created new variables:
@@ -78,7 +80,6 @@ Create a file name setup.sh which contains how to create the directory structure
 
 ## Upload Code to Github
 Log in to your GitHub account and create a new repository of the project name of your choice. Now you can either use the upload button to upload all files by selecting from a local file manager. And you can also use the GIT bash command as stated below to upload your code.
-After creating a new repository copy the ssh link of a repository to connect with a repository. And then line by line follow the below commands. 
 git init #initialize empty repository
 git remote add origin   #connect to repository
 git pull origin master   #pull initial chnges
@@ -91,9 +92,6 @@ Log in or register to Heroku if you do not have an account. After you log in in 
 
 ![image](https://user-images.githubusercontent.com/88879492/142361911-ae682422-b9f1-4280-8e29-18d4144a3f58.png)
 
-## Connect to repository
-As you create an app, you will be redirected to the app dashboard. Now it’s time to connect Heroku to our Github repository. select Github and search your repository where you have pushed all application code and connect with it.
-
 ![image](https://user-images.githubusercontent.com/88879492/142364685-a3bcf5dd-4158-4842-a3b1-ab400e815fc3.png)
 
 
@@ -104,6 +102,8 @@ Now scroll down and you have the option to deploy code. we will deploy on the ma
 Now you can share the URL with anyone to use your application.
 
 
+
+After creating a new repository copy the ssh link of a repository to connect with a repository. And then line by line follow the below commands. 
 ![image](https://user-images.githubusercontent.com/88879492/142360271-9027c097-9c64-4cd2-aa09-6730fb07c9cc.png)
 
 ![image](https://user-images.githubusercontent.com/88879492/142360437-4dcc0025-9e3a-491c-afea-be0e67e9bbcf.png)
