@@ -1,13 +1,12 @@
 # Laptop Prices Predictor
 <ul>
   <li>Designed a web app that predicts the price of the laptop given the configurations. </li>
-  <li>Scraped the laptops data from flipkart.com using python and BeautifulSoup package</li>
-  <li>Developed Linear, Lasso, and Random Forest Regressors using GridsearchCV to get the best model.</li>
-  <li>Deployed the Machine Learning model using streamlit library in Heroku using flask</li>
+  <li>Scraped the laptops data from Laptop_Data.csv.</li>
+  <li>Developed Linear regression using R2 metrics to get the best model.</li>
+  <li>Deployed the Machine Learning model using streamlit library in Heroku.</li>
 </ul>
 
 # Links and Resources Used
-<li>PyCaret Library: <a href="https://pycaret.org/">https://pycaret.org/</a></li>
 <li>Streamlit Library: <a href="https://www.streamlit.io/">https://www.streamlit.io/</a>
 <li>Model Deployment Video: <a href="https://www.youtube.com/watch?v=IWWu9M-aisA">https://www.youtube.com/watch?v=IWWu9M-aisA</a></li>
 <li>Model Deployment Github: <a href="https://github.com/krishnaik06/Dockers">https://github.com/krishnaik06/Dockers</a></li>
