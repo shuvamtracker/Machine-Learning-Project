@@ -39,7 +39,8 @@ Display - Made new columns for the size of the laptop(in inches) and touchscreen
 Description - Made new columns for the company and graphic card <br>
 
 # Data Preprocessing
-There are a few columns which are categorical here but they actually contain numerical values.So we need to convert few categorical columns to numerical columns. These are DDR_Version,Generation,Storage_GB,Price.
+There are a few columns which are categorical here but they actually contain numerical values.So we need to convert few categorical columns to numerical columns. These are ScreenResolution,Cpu,Memory,Gpu,OpSys.
+
 
 # Exploratory Data Analysis
 
