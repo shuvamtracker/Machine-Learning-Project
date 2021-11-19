@@ -9,7 +9,7 @@
 # Links and Resources Used
 <li>Streamlit Library: <a href="https://www.streamlit.io/">https://www.streamlit.io/</a>
 <li>Model Deployment Github: <a href="https://github.com/shuvamtracker/Machine-Learning-Projects">https://github.com/shuvamtracker/Machine-Learning-Project</a></li>
-<li>Packages: pandas, numpy, sklearn, streamlit, joblib</li>
+<li>Packages: pandas, numpy, sklearn, streamlit</li>
 
 # Web Scraping
 
@@ -42,7 +42,7 @@ GpuBrand-Made new column GpuBrand from Gpu<br>
 os-Made new column os from OpSys and divided all the laptops into three categories based on operating system<br>
 
 # Data Preprocessing
-There are a few columns which are categorical here but they actually contain numerical values.So we need to convert few categorical columns to numerical columns. These are ScreenResolution,Cpu,Memory,Gpu,OpSys.
+There are a few columns which are categorical here but they actually contain numerical values.So we need to convert few categorical columns to numerical columns. These are ppi,Cpu,HDD,SSD,TouchScreen.
 
 
 # Exploratory Data Analysis
