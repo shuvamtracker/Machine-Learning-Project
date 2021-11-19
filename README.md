@@ -30,13 +30,15 @@ So we extract the data from our dataset now consists of the information the 1304
 Link to my dataset: https://github.com/shuvamtracker/Machine-Learning-Project/blob/main/Lap_price_predictor/laptop_data.csv 
 
 # Feature Engineering
-We go through all the features one by one and keep adding new features. I have made the following changes and created new variables:
-RAM - Made columns for Ram Capacity in GB and the DDR version <br>
-Processor - Made columns for Name of the Processor, Type of the Processor, Generation <br>
-Operating System - Parsed the Operating System from this column and made a new column <br>
-Storage - Made new columns for the type of Disk Drive and the capacity of the Disk Drive <br>
-Display - Made new columns for the size of the laptop(in inches) and touchscreen <br>
-Description - Made new columns for the company and graphic card <br>
+We go through all the features one by one and keep adding new features. I have made the following changes and created new variables:<br>
+Touchscreen-Made new column touchscreen from ScreenResolution<br>
+Ips-Made new column Ips from ScreenResolution<br>
+ppi-Made new column ppi from ScreenResolution<br>
+CpuName-Made new column CpuName from Cpu and divided all laptops into 5 categories<br>
+CpuBrand-Made new column CpuBrand from Cpu<br>
+HDD,SSD-Made new column HDD,SSD from Memory <br>
+GpuBrand-Made new column GpuBrand from Gpu<br>
+os-Made new column os from OpSys and divided all the laptops into three categories based on operating system<br>
 
 # Data Preprocessing
 There are a few columns which are categorical here but they actually contain numerical values.So we need to convert few categorical columns to numerical columns. These are ScreenResolution,Cpu,Memory,Gpu,OpSys.
