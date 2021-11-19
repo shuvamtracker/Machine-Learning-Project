@@ -3,7 +3,7 @@
   <li>Designed a web app that predicts the price of the laptop given the configurations. </li>
   <li>Scraped the laptops data from Laptop_Data.csv .</li>
   <li>Developed Linear Regression ans Descision tree algorithms using R2 to get the best model.</li>
-  <li>Deployed the Machine Learning model using streamlit library in Heroku.</li>
+  <li>Deployed the Machine Learning model using streamlit library on Heroku.</li>
 </ul>
 
 # Links and Resources Used
