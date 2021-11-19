@@ -32,14 +32,22 @@ Link to my dataset: https://github.com/shuvamtracker/Machine-Learning-Project/bl
 # Feature Engineering
 We go through all the features one by one and keep adding new features.</br>
 We have made the following changes and created new variables:<br>
-Touchscreen-Made new column touchscreen from ScreenResolution<br>
-Ips-Made new column Ips from ScreenResolution<br>
-ppi-Made new column ppi from ScreenResolution<br>
-CpuName-Made new column CpuName from Cpu and divided all laptops into 5 categories<br>
-CpuBrand-Made new column CpuBrand from Cpu<br>
-HDD,SSD-Made new column HDD,SSD from Memory <br>
-GpuBrand-Made new column GpuBrand from Gpu<br>
-os-Made new column os from OpSys and divided all the laptops into three categories based on operating system<br>
+### Touchscreen- 
+    Made new column touchscreen from ScreenResolution<br>
+### Ips-
+    Made new column Ips from ScreenResolution<br>
+### ppi-
+    Made new column ppi from ScreenResolution<br>
+### CpuName-
+    Made new column CpuName from Cpu and divided all laptops into 5 categories<br>
+### CpuBrand-
+    Made new column CpuBrand from Cpu<br>
+### HDD,SSD-
+    Made new column HDD,SSD from Memory <br>
+### GpuBrand-
+    Made new column GpuBrand from Gpu<br>
+### os-
+    Made new column os from OpSys and divided all the laptops into three categories based on operating system<br>
 
 # Data Preprocessing
 There are a few columns which are categorical here but they actually contain numerical values.So we need to convert few categorical columns to numerical columns. These are ppi,Cpu,HDD,SSD,TouchScreen.
@@ -97,7 +105,7 @@ Log in or register to Heroku if you do not have an account. After you log in in 
 ![image](https://user-images.githubusercontent.com/88879492/142364685-a3bcf5dd-4158-4842-a3b1-ab400e815fc3.png)
 
 
-# Deploy the code
+### Deploy the code
 
 Now scroll down and you have the option to deploy code. we will deploy on the main branch. Click on deploy branch and observe logs. After successfully deployment it will give you the web app URL on the view app option and your application is deployed successfully.
 
