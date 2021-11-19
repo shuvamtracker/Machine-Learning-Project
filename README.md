@@ -30,7 +30,8 @@ So we extract the data from our dataset now consists of the information the 1304
 Link to my dataset: https://github.com/shuvamtracker/Machine-Learning-Project/blob/main/Lap_price_predictor/laptop_data.csv 
 
 # Feature Engineering
-We go through all the features one by one and keep adding new features. I have made the following changes and created new variables:<br>
+We go through all the features one by one and keep adding new features.</br>
+We have made the following changes and created new variables:<br>
 Touchscreen-Made new column touchscreen from ScreenResolution<br>
 Ips-Made new column Ips from ScreenResolution<br>
 ppi-Made new column ppi from ScreenResolution<br>
