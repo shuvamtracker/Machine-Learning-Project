@@ -63,7 +63,8 @@ There are a few columns which are categorical here but they actually contain num
 
 # Model Building
 <li>Traditional Method</li>
-Used scikit-learn library for the Machine Learning tasks. Applied label encoding and converted the categorical variables into numerical ones.Then we splited the data into training and test sets with a test size of 20%. We tried two different models ( Linear Regression and Descision Tree) and evaluated them using R square and Mean Absolute Error. 
+Used scikit-learn library for the Machine Learning tasks. Here we import Column transformer, Pipleline, OneHotEncoder, R2 Score, Mean Absloute Error(MAE) from Sklearn library. Then we try various alogrithm like Linear Regression, KNN, Desison Tree. Applied label encoding and converted the categorical variables into numerical ones.Then we splited the data into training and test sets with a test size of 20%. We tried two different models ( Linear Regression,KNN and Descision Tree) and evaluated them using R square and Mean Absolute Error.
+Finally, we select the alogrithm having high  R2 score to train the model. 
 
 <li>Automated Method</li>
 Used the auto ML library in python called Pickl. Compared all the regression models and selected the best model for applied hyperparameter tuning and plotted the various curves.
