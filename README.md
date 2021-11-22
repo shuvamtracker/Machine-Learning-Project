@@ -81,14 +81,7 @@ Create a file named requirements.txt. It is a text file that contains the name a
 ## 3) setup file:
 Create a file name setup.sh which contains how to create the directory structure in the cloud.
 
-## Upload Code to Github
-Log in to your GitHub account and create a new repository of the project name of your choice. Now you can either use the upload button to upload all files by selecting from a local file manager. And you can also use the GIT bash command as stated below to upload your code.</br>
-git init #initialize empty repository </br>
-git remote add origin   #connect to repository</br>
-git pull origin master   #pull initial chnges</br>
-gid add -A #to add files in staging area</br>
-git commit -m initial commit</br>
-git push origin master  #push all files to github
+
 
 # Deploy to Heroku
 Log in or register to Heroku if you do not have an account. After you log in in the top-right corner you will have the option of new. create a new app. Give a unique name to your code and this name will be your website URL followed by the Heroku domain and let the region be united states only.
